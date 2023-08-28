@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_helloworld", "01_helloworld\01_helloworld.csproj", "{3BE6890C-1E00-433F-8AE6-285FAA070745}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_初识类与名称空间", "02_初识类与名称空间\02_初识类与名称空间.csproj", "{43064DBE-4818-4CF7-A705-B2D2F1098C86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{3BE6890C-1E00-433F-8AE6-285FAA070745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BE6890C-1E00-433F-8AE6-285FAA070745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BE6890C-1E00-433F-8AE6-285FAA070745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43064DBE-4818-4CF7-A705-B2D2F1098C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43064DBE-4818-4CF7-A705-B2D2F1098C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43064DBE-4818-4CF7-A705-B2D2F1098C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43064DBE-4818-4CF7-A705-B2D2F1098C86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
