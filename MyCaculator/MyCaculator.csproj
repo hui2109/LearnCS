@@ -36,7 +36,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="test.cs" />
     <Compile Include="MyCaculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

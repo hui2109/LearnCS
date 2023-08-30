@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_helloworld", "01_helloworld\01_helloworld.csproj", "{3BE6890C-1E00-433F-8AE6-285FAA070745}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_初识类与命名空间", "02_初识类与命名空间\02_初识类与命名空间.csproj", "{5CBE2060-AFC2-4774-981D-F8C730EC6A69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCaculator", "MyCaculator\MyCaculator.csproj", "{57EB064B-226E-44A2-BE30-CB5AF15F9ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_helloworld", "01_helloworld\01_helloworld.csproj", "{D742944A-6E34-4EEC-AC4F-9D3BB4465736}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3BE6890C-1E00-433F-8AE6-285FAA070745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BE6890C-1E00-433F-8AE6-285FAA070745}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BE6890C-1E00-433F-8AE6-285FAA070745}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BE6890C-1E00-433F-8AE6-285FAA070745}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5CBE2060-AFC2-4774-981D-F8C730EC6A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5CBE2060-AFC2-4774-981D-F8C730EC6A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CBE2060-AFC2-4774-981D-F8C730EC6A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{57EB064B-226E-44A2-BE30-CB5AF15F9ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57EB064B-226E-44A2-BE30-CB5AF15F9ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57EB064B-226E-44A2-BE30-CB5AF15F9ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D742944A-6E34-4EEC-AC4F-9D3BB4465736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D742944A-6E34-4EEC-AC4F-9D3BB4465736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D742944A-6E34-4EEC-AC4F-9D3BB4465736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D742944A-6E34-4EEC-AC4F-9D3BB4465736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
