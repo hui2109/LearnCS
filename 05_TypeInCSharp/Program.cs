@@ -13,6 +13,7 @@ namespace _05_TypeInCSharp
         {
             Type mytype = typeof(Form);
             Console.WriteLine(mytype.FullName);
+            Console.WriteLine(mytype.BaseType.FullName);
             Console.WriteLine(mytype.IsClass);
 
             Form form = new Form();
