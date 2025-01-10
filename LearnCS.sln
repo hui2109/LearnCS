@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ConversionExample", "13_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_OperatorExample", "14_OperatorExample\14_OperatorExample.csproj", "{BCA5683F-C0F5-4CE1-91CA-B92D1F4FA055}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventExample", "EventExample\EventExample.csproj", "{71E0E0ED-AC0D-4F66-A4B7-03B0CC95F3E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{BCA5683F-C0F5-4CE1-91CA-B92D1F4FA055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCA5683F-C0F5-4CE1-91CA-B92D1F4FA055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCA5683F-C0F5-4CE1-91CA-B92D1F4FA055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E0E0ED-AC0D-4F66-A4B7-03B0CC95F3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E0E0ED-AC0D-4F66-A4B7-03B0CC95F3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E0E0ED-AC0D-4F66-A4B7-03B0CC95F3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E0E0ED-AC0D-4F66-A4B7-03B0CC95F3E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
