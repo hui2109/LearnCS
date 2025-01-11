@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafePointer", "UnsafePoin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_IsAsOperator", "15_IsAsOperator\15_IsAsOperator.csproj", "{2DDF55F2-D488-4682-A862-1A80E2579FE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_StatementExamples", "16_StatementExamples\16_StatementExamples.csproj", "{ACEE6EA3-30F1-465F-A83A-1ACE03CC6EAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{2DDF55F2-D488-4682-A862-1A80E2579FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DDF55F2-D488-4682-A862-1A80E2579FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DDF55F2-D488-4682-A862-1A80E2579FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEE6EA3-30F1-465F-A83A-1ACE03CC6EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEE6EA3-30F1-465F-A83A-1ACE03CC6EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEE6EA3-30F1-465F-A83A-1ACE03CC6EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEE6EA3-30F1-465F-A83A-1ACE03CC6EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
