@@ -21,13 +21,17 @@ namespace _09_CreateOperator
             double d = 4;
             Console.WriteLine(c / d);
 
-            // typeof操作符
+            // typeof操作符，获取Metadata，
+            // 包括：类型的名字、属于哪个名称空间、父类是谁、包括多少个属性、方法和事件
             Type e = typeof(int);
             Console.WriteLine(e.FullName);
             Console.WriteLine(e.Name);
             Console.WriteLine(e.Namespace);
+            Console.WriteLine(e.GetProperties().Length);
+            Console.WriteLine(e.GetMethods().Length);
 
             // default操作符
+            Console.WriteLine("=========================");
             Console.WriteLine(default(int));
             Console.WriteLine(default(string) == null);  // 类的默认值是null
             Console.WriteLine(default(double));
@@ -36,6 +40,7 @@ namespace _09_CreateOperator
             // checked与unchecked操作符及修饰符
             uint x = uint.MaxValue;
             string binStr = Convert.ToString(x, 2);
+            Console.WriteLine("=========================");
             Console.WriteLine(x);
             Console.WriteLine(binStr);
 
@@ -49,7 +54,7 @@ namespace _09_CreateOperator
                 Console.WriteLine("There's overflow 1!");
             }
 
-            checked  // checked修饰符
+            unchecked  // checked修饰符
             {
                 try
                 {

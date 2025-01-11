@@ -16,24 +16,36 @@ namespace _13_ConversionExample
             uint x = 65536;
             ushort y = (ushort)x;
             Console.WriteLine(y);  // 溢出了
-            
+
             // 显式类型转换2 Convert类
             sbyte z = 126;
             int m = Convert.ToInt32(z);
             Console.WriteLine(m);
-            
+
             // 显式类型转换3 两种ToString方法
             Console.WriteLine(Convert.ToString(z));
             Console.WriteLine(z.ToString());  // 直接调用结构体类型的实例方法
-            
+
             // 显式类型转换4 Parse与tryParse
             string n = "123";
             Console.WriteLine(double.Parse(n));
-            
+
+            double res = 2.0;
+            bool bl = double.TryParse(n, out res);
+            Console.WriteLine("*********************************");
+            Console.WriteLine(bl);
+            Console.WriteLine(res);
+
             // 自定义显式类型转换
             Stone stone = new Stone(50000);
             Monkey wuKong = (Monkey)stone;
             Console.WriteLine(wuKong.Age);
+
+            // 自定义隐式类型转换
+            stone = new Stone(5000);
+            Monkey2 wuKong2 = stone;
+            Console.WriteLine(wuKong2.Age);
+
         }
     }
 
@@ -53,9 +65,22 @@ namespace _13_ConversionExample
             m.Age = stone.Age / 5000;
             return m;
         }
+
+        public static implicit operator Monkey2(Stone stone)
+        {
+            Monkey2 m = new Monkey2();
+            // 石头每5000年, 猴子长1岁
+            m.Age = stone.Age / 5000;
+            return m;
+        }
     }
 
     class Monkey
+    {
+        public int Age;
+    }
+
+    class Monkey2
     {
         public int Age;
     }

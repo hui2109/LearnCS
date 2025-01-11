@@ -27,7 +27,7 @@ namespace _10_CustomizePlusOperator
             {
                 this.Name = Name;
             }
-            public static List<Person> operator +(Person p1, Person p2)
+            public static List<Person> operator +(Person p1, Person p2)  // 定义该类的+号操作符
             {
                 List<Person> nation = new List<Person>();
                 nation.Add(p1);
