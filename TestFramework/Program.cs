@@ -10,31 +10,19 @@ namespace ZTestFramework
     {
         static void Main(string[] args)
         {
-            var size = new SizeClass(10, 0);
-            Console.WriteLine("length={0},width={1}", size.Length, size.Width);
-            Console.ReadKey();
+            string cc = "aaa";
+            SizeClass sc = new SizeClass();
+            string scc = sc.XXX(cc);
+            Console.WriteLine(scc);
+            Console.WriteLine(cc);
         }
     }
 
     public class SizeClass
     {
-        public int Length { get; set; }
-        public int Width { get; set; }
-
-        public SizeClass(int length, int width)
+        public string XXX(string a)
         {
-            this.Length = length;
-            this.Width = width;
-        }
-    }
-
-    public struct SizeStruct
-    {
-        public int _length;
-
-        public SizeStruct(int length)
-        {
-            _length = length;
+            return a + "bb";
         }
     }
 }
