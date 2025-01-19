@@ -6,34 +6,22 @@ using System.Threading.Tasks;
 
 namespace ZTestFramework
 {
+    public delegate void MyDelegate(string message);
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // Specify the data source.
-            int[] scores = { 97, 92, 81, 60 };
+            // 隐式调用委托
+            MyDelegate del = PrintMessage;
 
-            // Define the query expression.
-            IEnumerable<int> scoreQuery =
-                from score in scores
-                where score > 80
-                select score;
-
-            // Execute the query.
-            foreach (int i in scoreQuery)
-            {
-                Console.Write(i + " ");
-            }
-
-            // Output: 97 92 81
+            // 隐式调用委托
+            del("Hello, implicit delegate call!");
         }
-    }
 
-    public class SizeClass
-    {
-        public string XXX(string a)
+        static void PrintMessage(string message)
         {
-            return a + "bb";
+            Console.WriteLine(message);
         }
     }
 }
+
