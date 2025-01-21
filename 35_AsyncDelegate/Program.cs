@@ -28,10 +28,10 @@ namespace _35_AsyncDelegate
             Program pg = new Program();
 
             // 同步调用
-            pg.SyncCall();
+            //pg.SyncCall();
 
             // 隐式异步
-            pg.ImplictAsyncCall();
+            //pg.ImplictAsyncCall();
 
             // 显式异步
             pg.EmplictAsyncCall();
