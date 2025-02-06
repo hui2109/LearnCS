@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45_HelloClass", "45_HelloCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "46_HelloAccess", "46_HelloAccess\46_HelloAccess.csproj", "{69446AC5-436A-4148-A188-D5DB975CE787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47_OverrideExample", "47_OverrideExample\47_OverrideExample.csproj", "{647EECE1-0B4C-4C33-9345-91958C70EEEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +329,10 @@ Global
 		{69446AC5-436A-4148-A188-D5DB975CE787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69446AC5-436A-4148-A188-D5DB975CE787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69446AC5-436A-4148-A188-D5DB975CE787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647EECE1-0B4C-4C33-9345-91958C70EEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647EECE1-0B4C-4C33-9345-91958C70EEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647EECE1-0B4C-4C33-9345-91958C70EEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647EECE1-0B4C-4C33-9345-91958C70EEEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
